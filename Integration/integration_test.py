@@ -6,8 +6,7 @@
 #     assert multiplication.multiply(addition.add(2, 3), 4) == 20
 
 import calculator
-import input_handler
-import requests
+
 
 def test_addition():
     assert calculator.add(2, 3) == 5
